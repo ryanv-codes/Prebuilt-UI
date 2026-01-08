@@ -1,0 +1,133 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header container */
+.header {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 12px 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Logo image */
+.logo img {
+    height: 35px;
+}
+
+/* Navigation menu */
+.nav-menu {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+/* Navigation links */
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Hover effect */
+.nav-menu a:hover {
+    color: #4f46e5;
+}
+
+/* Close button inside menu (hidden on desktop) */
+.close-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Right side buttons */
+.right-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Small icon button */
+.icon-btn {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+}
+
+/* Signup button */
+.signup-btn {
+    text-decoration: none;
+    background: #4f46e5;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Mobile menu button */
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* ---------------- MOBILE VIEW ---------------- */
+@media (max-width: 768px) {
+
+    /* Hide desktop signup */
+    .signup-btn {
+        display: none;
+    }
+
+    /* Show menu button */
+    .menu-btn {
+        display: block;
+    }
+
+    /* Mobile menu hidden by default */
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 0;               /* closed state */
+        overflow: hidden;
+        background: rgba(255,255,255,0.95);
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        transition: width 0.3s;
+    }
+
+    /* When menu is open */
+    .nav-menu.open {
+        width: 100%;
+    }
+
+    /* Show close button on mobile */
+    .close-btn {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
