@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #111;
+}
+
+.navbar {
+    background-color: rgb(8,7,7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 3rem;
+    width: 70%;
+    height: 60px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav_link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 20px;
+}
+
+.nav_link span {
+    transition: transform 0.4s;
+}
+
+.nav_link span:nth-child(2) {
+    position: absolute;
+    transform: translateY(150%);
+}
+
+.nav_link:hover span:nth-child(1) {
+    transform: translateY(-150%);
+}
+
+.nav_link:hover span:nth-child(2) {
+    transform: translateY(0);
+}
+
+/* Button */
+#get-started-btn {
+    padding: 10px 25px;
+    background: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Glow effect on hover */
+#get-started-btn:hover {
+    box-shadow: 0 0 20px rgba(255,255,255,0.8);
+    background: #f5f5f5;
+}
