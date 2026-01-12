@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+}
+
+.navbar .search {
+    color: white;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.navbar .logo {
+    height: 36px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.nav_links a i {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: white;
+    transition: 0.3s;
+}
+
+.nav_links a:hover i {
+    width: 100%;
+}
+
+.navbar .right_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#newlaunch-btn {
+    background: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: light;
+}
+
+#newlaunch-btn:hover {
+    background: white;
+    color: black;
+    transition: 0.5s;
+}
+
+#login-btn {
+    background: white;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: black;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+#login-btn:hover {
+    background: none;
+    color: white;
+    transition: 0.5s;
+}
