@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page Full Screen with Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <!-- Left image Section -->
+        <div class="left">
+            <img src="/imgs/leftSideImage.png" alt="img">
+        </div>
+
+        <!-- Right login form -->
+        <div class="right">
+            <form class="login_box">
+                <h2>Sign in</h2>
+                <p>Welcome back! Please sign in to continue</p>
+
+                <!-- Google button -->
+                <button class="google_btn">
+                    <img src="/imgs/googleLogo.svg" alt="googlelogin" />
+                </button>
+
+                <!-- Divider -->
+                <div class="divider">
+                    <span></span>
+                    <small>or sign in with email</small>
+                    <span></span>
+                </div>
+
+                <!-- Email field -->
+                <div class="input_box">
+                    <input type="email" id="email-box" placeholder="Email id">
+                </div>
+
+                <!-- Password field -->
+                <div class="input_box">
+                    <input type="password" id="pass-box" placeholder="Password">
+                </div>
+
+                <!-- Remember me -->
+                <div class="remember_me">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <!-- Login button -->
+                <button id="login-btn">Login</button>
+
+                <p class="signup">
+                    Don't have an account? <a href="#">Sign up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

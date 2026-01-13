@@ -1,0 +1,172 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #14162b;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #1c1f3a;
+    height: 570px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+}
+
+.container h2 {
+    padding: 15px 0 30px 10px;
+}
+
+.container input {
+    width: 87%;
+    padding: 11px;
+    background: transparent;
+    border: 1px solid #ff3b5c;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container input:hover {
+    border: 1px solid white;
+}
+
+.container :placeholder {
+    color: #aaa;
+}
+
+.row input {
+    width: 40%;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group span {
+    position: absolute;
+    right: 35px;
+    top: 64%;
+    font-size: 12px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.input-group .pas {
+    position: absolute;
+    right: 35px;
+    top: 10%;
+    font-size: 12px;
+    color: #aaa;
+    cursor: pointer;;
+}
+
+#Confirm-password {
+    margin-bottom: 20px;
+}
+
+.check input {
+    width: 15px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.check a {
+    color: #ff3b5c;
+    text-decoration: none;
+}
+
+.check {
+    margin-bottom: 40px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    margin: 0 30px 30px 0;
+}
+
+.check-text {
+    line-height: 1.4;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff3b5c;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: white;
+    color: #ff3b5c;
+}
+
+.bottom {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #ff3b5c;
+}
+
+.bottom a {
+    color: #ff3b5c;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.check label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.check input[type="checkbox"] {
+    display: none;
+}
+
+/* custom checkbox box */
+.checkmark {
+    width: 13px;
+    height: 13px;
+    border: 1.5px solid #ff3b5c;
+    border-radius: 4px;
+    position: relative;
+}
+
+/* tick mark (appears when checked) */
+.check input[type="checkbox"]:checked+.checkmark::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+
+}
