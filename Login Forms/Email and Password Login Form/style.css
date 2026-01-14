@@ -1,23 +1,107 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+/* Reset and basic font */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
 }
 
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Center everything */
+body{
+  background:#f3f4f6;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
-.container {
-    width: 340px;
+/* Main container */
+.main{
+  width:100%;
+  padding:20px;
+  display:flex;
+  justify-content:center;
 }
 
-.login_box {
-    text-align: center;
+/* Login card */
+.login-form{
+  width:100%;
+  max-width:350px;
 }
 
-.
+/* Logo */
+.logo{
+  display:inline-block;
+  margin-bottom:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:#1d293d;
+}
+
+/* Title */
+h2{
+  font-size:32px;
+  margin-bottom:10px;
+}
+
+/* Subtitle text */
+.subtitle{
+  color:#777;
+  margin-bottom:30px;
+}
+
+/* Input groups */
+.field{
+  margin-bottom:20px;
+}
+
+.field label{
+  font-weight:600;
+}
+
+.field input{
+  width:100%;
+  padding:12px;
+  margin-top:8px;
+  border-radius:6px;
+  border:1px solid #ddd;
+  outline:none;
+}
+
+/* Blue focus effect */
+.field input:focus{
+  border-color:#4f46e5;
+  box-shadow:0 0 0 2px rgba(79,70,229,.2);
+}
+
+/* Login button */
+.login-btn{
+  width:100%;
+  padding:12px;
+  background:#4f46e5;
+  border:none;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+/* Hover effect */
+.login-btn:hover{
+  background:#4338ca;
+}
+
+/* Bottom text */
+.bottom{
+  text-align:center;
+  margin-top:25px;
+}
+
+.bottom a{
+  color:#4f46e5;
+  text-decoration:none;
+}
+
+.bottom a:hover{
+  text-decoration:underline;
+}
