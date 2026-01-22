@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="login-form">
+            <h2>User <span id="login-txt">Login</span></h2>
+
+            <div class="input-group">
+                <label for="username">Email</label><br>
+                <input type="email" id="email-input" name="email" placeholder="type here" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="type here" required>
+            </div>
+
+            <div class="signup">
+                <a href="#" id="create-user">
+                    Create an account? <span>Click here</span>
+                </a>
+            </div>
+            <button type="submit" id="login-btn">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
