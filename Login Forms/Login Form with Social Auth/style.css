@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.login-container {
+    width: 350px;
+    height: 435px;
+    padding: 16px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #1e2939;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    height: 41px;
+    padding: 10px 16px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #c1c1c1;
+}
+
+#email-input {
+    margin: 12px 0 12px 0;
+}
+
+.input-group input::placeholder {
+    color: #ced3d9;
+}
+
+#password-input {
+    margin-top: 4px;
+}
+
+.forgot-pass {
+    padding: 16px 0 16px 0;
+    text-align: right;
+    font-size: 14px;
+}
+
+.forgot-pass a {
+    color: #2b7fff;
+}
+
+#login-btn {
+    width: 100%;
+    background: #615fff;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    padding: 10px 0 10px 0;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.signup a {
+    color: #6a7282;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.signup span {
+    color: #2b7fff;
+}
+
+.login-ops button {
+    width: 100%;
+    height: 40px;
+    padding: 10px 0 10px 0;
+}
+
+#apple-btn {
+    margin-top: 20px;
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+#google-btn {
+    background: white;
+    margin: 12px 0 12px 0;
+    border: 1px solid #ced3d9;
+    outline: none;
+    border-radius: 25px;
+}
+
+.login-ops button img {
+    width: 16px;
+    height: 16px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
