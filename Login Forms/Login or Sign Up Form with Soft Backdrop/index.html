@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Signup Form</title>
+
+    <!-- Link external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main form container -->
+    <form class="login-form">
+
+        <!-- Form heading -->
+        <h1 id="form-title">Login</h1>
+
+        <!-- Sub text -->
+        <p class="subtitle">Please sign in to continue</p>
+
+        <!-- Name field (only for signup) -->
+        <div class="input-group" id="name-field">
+            <span>👤</span>
+            <input type="text" placeholder="Name">
+        </div>
+
+        <!-- Email field -->
+        <div class="input-group">
+            <span>📧</span>
+            <input type="email" placeholder="Email id" required>
+        </div>
+
+        <!-- Password field -->
+        <div class="input-group">
+            <span>🔒</span>
+            <input type="password" placeholder="Password" required>
+        </div>
+
+        <!-- Forgot password link -->
+        <div class="forgot">
+            <a href="#">Forgot password?</a>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" id="submit-btn">Login</button>
+
+        <!-- Switch between login and signup -->
+        <p class="switch" onclick="toggleForm()">
+            <span id="switch-text">Don't have an account?</span>
+            <span class="link">Click here</span>
+        </p>
+
+    </form>
+
+    <!-- Decorative background blur -->
+    <div class="bg-effect"></div>
+
+    <!-- JavaScript for toggle (simple version) -->
+    <script src="script.js"></script>
+
+</body>
+</html>
