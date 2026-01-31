@@ -25,6 +25,11 @@ body {
     align-items: center;
 }
 
+.info_badge:hover {
+    background-color: #e0e7ff;
+    transition: 0.3s;
+}
+
 .more_info {
     color: #615fff;
     text-decoration: none;
