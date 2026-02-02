@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+body {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.Exclusive_Offer {
+    width: 366px;
+    height: 38px;
+    background-color: #8e51ff3a;
+    border: 1px solid #8e51ffbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 4px;
+    border-radius: 25px;
+}
+
+.offer {
+    width: 115px;
+    height: 29px;
+    background-color: #8e51ff;
+    padding: 4px 8px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.flat {
+    color: #7f22fe;
+    margin-left: -20px;
+}
