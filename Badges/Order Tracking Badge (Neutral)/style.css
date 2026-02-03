@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.annoucement {
+    width: 360px;
+    height: 38px;
+    background-color: #f6f3f4;
+    color: #1e2939;
+    border-radius: 25px;
+    border: 1px solid #ebe6e7;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.order_icon {
+    width: 112px;
+    height: 29px;
+    border-radius: 25px;
+    border: 1px solid #ebe6e7;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-left: -10px;
+}
+
