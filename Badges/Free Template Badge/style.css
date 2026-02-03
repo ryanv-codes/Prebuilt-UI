@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge_container {
+    width: 321px;
+    height: 33px;
+    background-color: #fff;
+    border: 1px solid #c6d2ff;
+    border-radius: 25px;
+    padding: 4px 8px 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 8px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: #4F39F6;
+    font-weight: 500;
+    border-right: 1px solid #c6d2ff;
+    padding-right: 13px;
+    padding-left: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #62748e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
