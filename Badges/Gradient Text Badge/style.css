@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gredient_text {
+    width: 294px;
+    height: 37px;
+    border: 1px solid #ebe6e7;
+    border-radius: 25px;
+    padding: 4px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: medium;
+}
+
+#emoji {
+    height: 28px;
+    width: 28px;
+    font-size: 18px;
+    border-right: 1px solid #ebe6e7;
+    margin-right: 10px;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#text {
+    background: linear-gradient(to right, #615fff, #ff2056);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+
+    
