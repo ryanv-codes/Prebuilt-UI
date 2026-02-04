@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert_badge {
+    width: 412px;
+    height: 38px;
+    border: 1px solid #fb2c3647;
+    border-radius: 25px;
+    background-color: #fb2c362a;
+    color: #fb2c36;
+    padding: 4px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.msg_icon {
+    width: 128px;
+    height: 29px;
+    background-color: #fb2c36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: white;
+    border-radius: 25px;
+}
+
+#msg-text {
+    padding-right: 8px;
+}
