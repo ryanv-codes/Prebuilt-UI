@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update_badge {
+    width: 348px;
+    height: 38px;
+    border: 1px solid #00c951;
+    background-color: #dcfce7;
+    border-radius: 25px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #00a63e;
+}
+
+#update-btn {
+    width: 88px;
+    height: 29px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00c951;
+    color: #fff;
+    gap: 4px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: -12px;
+}
