@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.growth_badge {
+    width: 146px;
+    height: 30px;
+    background-color: #51a2ff1c;
+    padding: 4px 16px;
+    border: 1px solid #c6d2ff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+#growth_text {
+    font-size: 14px;
+    color: #193cb8;
+}
