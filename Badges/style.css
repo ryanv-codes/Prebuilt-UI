@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9fafb;
+}
+
+/* Main container */
+.hiring-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    border: 1px solid #c7d2fe;   /* light indigo */
+    border-radius: 999px;
+
+    padding: 4px 12px 4px 6px;
+
+    font-size: 13px;
+    color: #64748b;
+
+    background: #ffffff;
+}
+
+/* "We're hiring" text */
+.badge-text {
+    color: #4f46e5;
+    font-weight: 500;
+    padding: 0 6px 0 8px;
+}
+
+/* Vertical line */
+.divider {
+    width: 1px;
+    height: 22px;
+    background: #d1d5db;
+}
+
+/* Link */
+.badge-link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    text-decoration: none;
+    color: inherit;
+
+    padding: 0 4px;
+
+    transition: 0.2s;
+}
+
+/* Hover effect */
+.badge-link:hover {
+    color: #4f46e5;
+}
+
+/* Arrow */
+.arrow {
+    font-size: 14px;
+    margin-top: 1px;
+}
