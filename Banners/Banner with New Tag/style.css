@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    height: 40px;
+    padding: 10px 0;
+    background: linear-gradient(to right, #abff7e, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;    
+    color: white;
+    font-size: 14px;
+}
+
+.text1 {
+    width: 52px;
+    height: 26px;
+    background-color: #00a63e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+
+.text2 {
+    color: #016630;
+}
