@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    height: 40px;
+    background: linear-gradient(to bottom, #ff6900, #f54a00);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+.checkout_btn {
+    height: 24px;
+    width: 120px;
+    padding: 4px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: #f54a00;
+    background-color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout_btn:hover {
+    background-color: #e2e8f0;
+    transition: 0.3s;
+}
