@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    height: 44px;
+    background-color: #1e2939;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.claim_btn {
+    background-color: #fff;
+    color: #1e2939;
+    width: 125px;
+    height: 36px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 28px;
+    cursor: pointer;
+    margin-right: 24px;
+}
+
+.cancel_btn {
+    background: transparent;
+    outline: none;
+    border: none;
+}
