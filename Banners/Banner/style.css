@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    height: 40px;
+    background-color: #7668ff;
+    padding: 10px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    height: 30px;
+    width: 50%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: default;
+    transition: 0.3s;
+}
+
+.text:hover {
+    background-color: rgba(255, 255, 255, 0.162);
+}
