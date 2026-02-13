@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.banner {
+    height: 40px;
+    width: 448px;
+    background: linear-gradient(to right, #8e51ff, #9938CA, #9938ca, #e0724a);
+    padding: 10px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    border-radius: 10px;
+}
