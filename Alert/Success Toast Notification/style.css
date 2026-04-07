@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.success {
+    background-color: #fff;
+    border: 1px solid #ebe6e7;
+    width: 332px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px 12px 12px;
+    border-radius: 4px;
+}
+
+.success svg {
+    margin-top: -10px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+p {
+    color: #62748e;
+    font-size: 14px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close svg {
+    margin-top: -25px;
+    margin-right: -4px;
+}
+
+
